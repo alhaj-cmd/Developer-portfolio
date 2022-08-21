@@ -4,8 +4,9 @@
 h1{
     font-size: 30px;
 }
-section{
+.side-bar{
     display: flex;
+    margin-bottom: 100px;
 }
 .header{
     width: 50%;
@@ -31,7 +32,29 @@ section{
     margin-left: 40px;
    
 }
-.baby{
+.baby {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.baby-child{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.hero{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    width: 40%;
+}
+#cute{
+    border-left: 7px solid tomato;
+}
+#cutes{
+border-left: 7px solid green;
+}
+footer p{
+    text-align: center;
 }
